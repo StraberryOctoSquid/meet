@@ -19,6 +19,9 @@ Merging serverless computing and PWAs paves the way for modern web development, 
     - Fluid design
     - Universal platform support
 
+    ### Serverless Functions
+    This app uses serverless functions to reduce maintenance, easily scale, and to be always available to it's users.
+
 
 ## The 5 Ws
 1. **Who**: Meet app users – including peers, professionals, potential recruiters.
