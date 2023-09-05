@@ -22,7 +22,9 @@ frameworkVersion: "3"
 
 provider:
   name: aws
-  runtime: nodejs18.x
+  runtime: nodejs12.x
+  region: us-central1
+  timeout: 30 # optional, in seconds, default is 6
 
 # you can overwrite defaults here
 #  stage: dev
