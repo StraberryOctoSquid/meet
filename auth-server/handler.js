@@ -48,14 +48,14 @@ module.exports.getAccessToken = async (event) => {
       return resolve(response);
     });
   }
-  ).then((results) => {
+  ).then((response) => {
     return {
       statusCode: 200,
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Credentials': true,
       },
-      body: JSON.stringify(results),
+      body: JSON.stringify(response),
     };
   }).catch((error) => {
     return {
