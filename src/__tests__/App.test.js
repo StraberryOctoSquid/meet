@@ -20,7 +20,7 @@ describe('<App /> component', () => {
   });
 
   test('renders NumberOfEvents textbox', () => {
-    expect(AppDOM.querySelector("#number-of-events")).toBeInTheDocument();
+    expect(AppDOM.querySelector("#NumberofEventsDisplayedTextBox")).toBeInTheDocument();
   });
 }
 );
