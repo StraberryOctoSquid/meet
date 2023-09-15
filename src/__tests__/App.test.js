@@ -2,8 +2,8 @@
 /* eslint-disable testing-library/no-node-access */
 import { render } from '@testing-library/react';
 import App from '../App';
-import userEvent from '@testing-library/user-event';
-import { getEvents } from '../api';
+// import userEvent from '@testing-library/user-event';
+// import { getEvents } from '../api';
 
 describe('<App /> component', () => {
   let AppDOM;
