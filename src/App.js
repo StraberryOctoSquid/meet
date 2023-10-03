@@ -1,8 +1,9 @@
 import CitySearch from './components/CitySearch';
 import EventList from './components/EventList';
-import NumberofEvents from './components/NumberofEvents';
+import NumberofEvents from './components/NumberOfEvents.js';
 import { useState } from 'react';
 import './App.css';
+import { getEvents } from './api';
 
 const App = () => {
   const [events, setEvents] = useState([]);

@@ -1,12 +1,14 @@
 import Event from "./Event";
+import CitySearch from "./CitySearch";
+import NumberOfEvents from "./NumberOfEvents";
 
 const EventList = ({ events }) => {
   return (
-    <ul id="event-list">
-      {events ?
-        events.map(event => <Event key={event.id} event={event} />) :
-        null}
-    </ul>
+    <div className="App">
+      <CitySearch />
+      <NumberOfEvents />
+      <EventList events={events} />
+    </div>
   );
 }
 
